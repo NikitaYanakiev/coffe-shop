@@ -1,0 +1,56 @@
+.about-beans {
+    position: relative;
+    padding: 70px 0;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 240px;
+        height: 1.5px;
+        background-color: #000;
+        display: block;
+    }
+    @media (max-width: 768px) {
+        padding: 40px 0;
+    }
+    // .about-beans__container
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    // .about-beans__img
+    &__img {
+        flex: 0 0 272px;
+        max-width: 272px;
+        box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.25);
+        img {
+            width: 100%;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            margin: 0 auto 20px;
+        }
+    }
+    // .about-beans__content
+    &__content {
+        flex: 0 0 350px;
+    }
+
+    // .about-beans__title
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    // .about-beans__text
+    &__text {
+        font-weight: 400;
+        text-align: center;
+        font-size: 14px;
+        line-height: 150%;
+    }
+}

@@ -1,0 +1,72 @@
+.best {
+    padding: 80px 0 100px;
+    background: url("../../../assets/img/paper.jpg") center / cover no-repeat;
+    @media (max-width: 768px) {
+        padding: 40px 0;
+    }
+    // .best__title
+    &__title {
+        text-align: center;
+        margin-bottom: 40px;
+        @media (max-width: 768px) {
+            margin-bottom: 20px;
+        }
+    }
+    // .best__products
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
+    }
+    // .best__product
+    &__product {
+        transition: all 0.3s;
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+.product {
+    cursor: pointer;
+    padding: 20px;
+    max-width: 220px;
+    min-height: 240px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    // .product__img
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 150px;
+        margin: 0 auto 14px;
+        flex-grow: 1;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    // .product__title
+    &__title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    // .product__price
+    &__price {
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+        text-align: right;
+        margin-left: auto;
+    }
+}

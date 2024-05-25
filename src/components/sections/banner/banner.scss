@@ -1,0 +1,15 @@
+.banner {
+    background: url('../../../assets/img/our_coffe.jpg') center / cover no-repeat;
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_pleasure {
+        background: url('../../../assets/img/pleasure.jpg') center / cover no-repeat;
+    }
+    // .banner__title
+    &__title {
+        text-align: center;
+        color:#fff;
+    }
+}

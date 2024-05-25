@@ -1,0 +1,48 @@
+.goods {
+    // .goods__filter
+    &__filter {
+        display: flex;
+        align-items: center;
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    // .goods__btns
+    &__btns {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    // .goods__btn
+    &__btn {
+        font-family: "Merienda";
+        padding: 6px 20px;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #000;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        transition: all 0.3s;
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+        &:nth-child(1) {
+            border-radius: 4px 0 0 4px;
+        }
+        &:last-child {
+            border-radius: 0 4px 4px 0;
+        }
+        &:hover {
+            box-shadow: none;
+            background: rgb(217, 217, 217);
+        }
+        &_active {
+            box-shadow: none;
+            background: rgb(217, 217, 217);
+        }
+        @media (max-width: 768px) {
+            padding: 5px 15px;
+        }
+    }
+}

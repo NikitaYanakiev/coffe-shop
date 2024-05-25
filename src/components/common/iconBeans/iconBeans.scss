@@ -1,0 +1,40 @@
+.beans__icon {
+    position: relative;
+    width: 40px;
+    text-align: center;
+    margin:0 auto 35px;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: -25px;
+        top: calc(50% - 2px);
+        transform: translateX(-100%);
+        width: 60px;
+        height: 2px;
+        background-color: #fff;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        right: -25px;
+        top: calc(50% - 2px);
+        transform: translateX(100%);
+        width: 60px;
+        height: 2px;
+        background-color: #fff;
+    }
+    img {
+        width: 100%;
+        display: block;
+    }
+    &_black {
+        &::after {
+            background-color: #000;
+        }
+        &::before {
+            background-color: #000;
+        }
+    }
+}

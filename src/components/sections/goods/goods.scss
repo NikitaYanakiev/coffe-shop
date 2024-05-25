@@ -1,0 +1,48 @@
+.goods {
+    padding: 60px 0 30px;
+    // .goods__header
+    &__header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 60px;
+        @media (max-width: 768px) {
+            display: block;
+            margin-bottom: 40px;
+        }
+    }
+    // .goods__search
+    &__search {
+        display: flex;
+        align-items: center;
+        @media (max-width: 768px) {
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+    // .goods__label
+    &__label {
+        margin-right: 20px;
+        @media (max-width: 768px) {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+    // .goods__input
+    &__input {
+        padding: 5px;
+        font-family: "Merienda";
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 4px;
+        width: 180px;
+        height: 30px;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        @media (max-width: 768px) {
+            width: 100%;
+            border: 2px solid rgb(217, 217, 217);
+        }
+    }
+}
