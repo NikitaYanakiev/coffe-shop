@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dde37913.css",
-    "main.js": "/static/js/main.6d0ff999.js",
-    "static/media/paper.jpg": "/static/media/paper.6e0053e1cc78429ac60c.jpg",
-    "static/media/main-page.jpg": "/static/media/main-page.953aa73b43f186118499.jpg",
-    "static/media/our_coffe.jpg": "/static/media/our_coffe.36148e864530e58f1a80.jpg",
-    "static/media/pleasure.jpg": "/static/media/pleasure.9ca6ae1e89b75843ee91.jpg",
-    "index.html": "/index.html",
-    "main.dde37913.css.map": "/static/css/main.dde37913.css.map",
-    "main.6d0ff999.js.map": "/static/js/main.6d0ff999.js.map"
+    "main.css": "/coffe-shop/static/css/main.ed43ca3b.css",
+    "main.js": "/coffe-shop/static/js/main.affe4014.js",
+    "static/media/paper.jpg": "/coffe-shop/static/media/paper.6e0053e1cc78429ac60c.jpg",
+    "static/media/main-page.jpg": "/coffe-shop/static/media/main-page.953aa73b43f186118499.jpg",
+    "static/media/our_coffe.jpg": "/coffe-shop/static/media/our_coffe.36148e864530e58f1a80.jpg",
+    "static/media/pleasure.jpg": "/coffe-shop/static/media/pleasure.9ca6ae1e89b75843ee91.jpg",
+    "index.html": "/coffe-shop/index.html",
+    "main.ed43ca3b.css.map": "/coffe-shop/static/css/main.ed43ca3b.css.map",
+    "main.affe4014.js.map": "/coffe-shop/static/js/main.affe4014.js.map"
   },
   "entrypoints": [
-    "static/css/main.dde37913.css",
-    "static/js/main.6d0ff999.js"
+    "static/css/main.ed43ca3b.css",
+    "static/js/main.affe4014.js"
   ]
 }
