@@ -12,7 +12,7 @@ function Header() {
                 <nav className="header__menu">
                     <ul className="header__list">
                         <li className="header__item">
-                            <Link to="/" className="header__link">Coffee house</Link>
+                            <Link to="/coffe-shop/" className="header__link">Coffee house</Link>
                         </li>
                         <li className="header__item">
                             <Link to="/our-coffe" className="header__link">Our coffee</Link>
