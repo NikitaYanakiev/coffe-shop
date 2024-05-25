@@ -1,7 +1,7 @@
 {
   "name": "coffe-shop",
   "version": "0.1.0",
-  "homepage": "https://NikitaYanakiev.github.io/",
+  "homepage": "https://NikitaYanakiev.github.io/coffe-shop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
