@@ -6,7 +6,7 @@ function Header() {
         <header className="header">
             <div className="header__container">
                 <a href="#home" className="header__logo">
-                    <img src='/icons/double_beans_white.svg' alt="logo" />
+                    <img src={`${process.env.PUBLIC_URL}/icons/double_beans_white.svg`} alt="logo" />
                 </a>
 
                 <nav className="header__menu">

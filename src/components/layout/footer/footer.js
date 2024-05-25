@@ -8,7 +8,7 @@ function Footer() {
             <div className="container">
                 <div className="footer__container">
                     <a href="#home" className="footer__logo">
-                        <img src="/icons/double_beans_black.svg" alt="logo" />
+                        <img src={`${process.env.PUBLIC_URL}/icons/double_beans_black.svg`} alt="logo" />
                     </a>
 
                     <nav className="footer__menu">

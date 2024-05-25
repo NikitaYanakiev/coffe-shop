@@ -5,12 +5,12 @@ import "./goods.scss";
 
 function Goods() {
     const data = [
-        { name: "AROMISTICO", country: "Brazil", price: "6.99$", img: '/img/aromistico.jpg', id: 1 },
-        { name: "AROMISTICO", country: "Brazil", price: "6.99$", img: '/img/aromistico.jpg', id: 2 },
-        { name: "PRESTO", country: "Columbia", price: "6.99$", img: '/img/presto.jpg', id: 3 },
-        { name: "SOLIMO", country: "Kenya", price: "6.99$", img: '/img/solimo.jpg', id: 4 },
-        { name: "SOLIMO", country: "Kenya", price: "6.99$", img: '/img/solimo.jpg', id: 5 },
-        { name: "PRESTO", country: "Columbia", price: "6.99$", img: '/img/presto.jpg', id: 6 },
+        { name: "AROMISTICO", country: "Brazil", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/aromistico.jpg`, id: 1 },
+        { name: "AROMISTICO", country: "Brazil", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/aromistico.jpg`, id: 2 },
+        { name: "PRESTO", country: "Columbia", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/presto.jpg`, id: 3 },
+        { name: "SOLIMO", country: "Kenya", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/solimo.jpg`, id: 4 },
+        { name: "SOLIMO", country: "Kenya", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/solimo.jpg`, id: 5 },
+        { name: "PRESTO", country: "Columbia", price: "6.99$", img: `${process.env.PUBLIC_URL}/img/presto.jpg`, id: 6 },
     ];
     const [term, setTerm] = useState("");
     const [filter, setFilter] = useState("All");

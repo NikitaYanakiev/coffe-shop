@@ -9,7 +9,7 @@ import AboutIt from "../../pages/AboutIt";
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter >
                 <Header />
                 <Routes>
                     <Route path="/coffe-shop" element={<MainPage />} />

@@ -6,7 +6,7 @@ function AboutItem() {
         <section className="about-item">
             <div className="container about-item__container">
                 <div className="about-item__img">
-                    <img src="/img/about_it.jpg" alt="girl with coffe" />
+                    <img src={`${process.env.PUBLIC_URL}/img/about_it.jpg`} alt="girl with coffe" />
                 </div>
 
                 <div className="about-item__content">

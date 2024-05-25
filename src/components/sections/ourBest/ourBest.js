@@ -9,7 +9,7 @@ function OurBest() {
                 <div className="best__products">
                     <article className="best__product product">
                         <div className="product__img">
-                            <img src="/img/solimo.jpg" alt="solimo" />
+                            <img src={`${process.env.PUBLIC_URL}/img/solimo.jpg`} alt="solimo" />
                         </div>
                         <h4 className="product__title">
                             Solimo Coffee Beans 2 kg
@@ -19,7 +19,7 @@ function OurBest() {
 
                     <article className="best__product product">
                         <div className="product__img">
-                            <img src="/img/presto.jpg" alt="presto" />
+                            <img src={`${process.env.PUBLIC_URL}/img/presto.jpg`} alt="presto" />
                         </div>
                         <h4 className="product__title">
                             Presto Coffee Beans 1 kg
@@ -29,7 +29,7 @@ function OurBest() {
 
                     <article className="best__product product">
                         <div className="product__img">
-                            <img src="/img/aromistico.jpg" alt="solimo" />
+                            <img src={`${process.env.PUBLIC_URL}/img/aromistico.jpg`} alt="solimo" />
                         </div>
                         <h4 className="product__title">
                             AROMISTICO Coffee 1 kg

@@ -4,10 +4,10 @@ function IconBeans ({beansColor}) {
     let srcImg;
     let className = 'beans__icon';
     if (beansColor === 'black') {
-        srcImg = '/icons/tripple_beans_black.svg'
+        srcImg=`${process.env.PUBLIC_URL}/icons/tripple_beans_black.svg`;
         className += ' beans__icon_black';
     } else if (beansColor === 'white') {
-        srcImg = '/icons/tripple_beans_white.svg'
+        srcImg = `${process.env.PUBLIC_URL}/icons/tripple_beans_white.svg`;
     }
 
     return (
